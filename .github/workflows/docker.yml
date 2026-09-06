@@ -2,8 +2,7 @@ name: Build Docker Multi‑Arch
 
 on:
   push:
-    tags:
-      - 'v*'
+    branches: [ main ]
 
 jobs:
   build:
